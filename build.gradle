@@ -14,11 +14,7 @@ dependencies {
     implementation 'org.hibernate.orm:hibernate-core:6.6.2.Final'
     implementation 'com.zaxxer:HikariCP:5.1.0'
 
-    // Драйвер базы данных (например, PostgreSQL)
-    runtimeOnly 'org.postgresql:postgresql:42.6.0'
-
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    runtimeOnly 'org.postgresql:postgresql:42.7.1'
 }
 
 test {
